@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPage() {
   return (
     <div>
@@ -7,6 +9,7 @@ export default function AboutPage() {
         will be nothing just a delusion
       </p>
       <p>Version: 2.0.0</p>
+      <Link href="/">Home</Link>
     </div>
   );
 }
